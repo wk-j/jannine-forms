@@ -28,6 +28,7 @@
     <MtouchArch>i386</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
     <MtouchExtraArgs>--linkskip=ImageCircle.Forms.Plugin.iOS --linkskip=ImageCircle.Forms.Plugin.Abstractions</MtouchExtraArgs>
+    <MtouchTlsProvider>AppleTLS</MtouchTlsProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <Optimize>true</Optimize>

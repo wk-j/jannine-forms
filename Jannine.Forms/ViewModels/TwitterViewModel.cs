@@ -126,7 +126,7 @@ namespace Jannine.Forms.ViewModels
 				};
 				await auth.AuthorizeAsync ();
 				var twitterContext = new TwitterContext (auth);
-				var jw = "JaninaWMusic";
+				var jw = "JanninaWMusic";
 				var queryResponse = await
 					(from tweet in twitterContext.Status
 					 where tweet.Type == StatusType.User &&
