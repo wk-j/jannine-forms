@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Jannine.Forms.AboutPage">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<Image Aspect="AspectFill" Source="away.png" />
+				<StackLayout Spacing="10" Padding="10" VerticalOptions="FillAndExpand">
+					<Label FontSize="10">
+						<Label.Text>
+♫ Life
+							
+Weigel was born on 30 July 2000 in Steinfurt, Germany, to a German father and a Thai mother.[2] Her German name, Jannine, was from Hebrew, meaning 'Yahweh is gracious'.[2] Her middle name, Parawie (Thai: ภารวี; rtgs: Pharawi; IPA: [pʰäː˧.rä˦˥.wiː˧]), means 'sunbeam' in Thai.[2] Her Thai nickname, Ploychompoo (Thai: พลอยชมพู; rtgs: Phloichomphu; IPA: [pʰlɔːj˧.t͡ɕʰom˧.pʰuː˧]), means 'pink sapphire'.[3]
+
+Weigel has three elder brothers, born 1986, 1988, and 1990, respectively.[2] She lived in Steinfurt until her tenth year of age and moved to Bangkok, Thailand, in July 2010.[2]
+
+Weigel attended primary schools in Germany until Grade 4 as she moved to Bangkok.[4] In Thailand, she was given homeschooling until Grade 6.[4] She continued her education through distance learning until Grade 9, which she completed in 2014.[4] By way of advanced placement, she now undertakes an undergraduate course at the Faculty of Liberal Arts, Sukhothai Thammathirat Open University, where she majors in English. She expects to finish her bachelor's degree by 2017.[4]
+
+Weigel has an excellent command of Central Thai, English, and German.[3][4] She is also studying Mandarin Chinese and Vietnamese.[3]
+
+♫ Career
+							
+Weigel started working as a model after moving to Bangkok in 2010. The next year, she turned her attention to singing. Following three months of training, she entered a national televised singing contest for children, called Singing Kids, and won third place.[3] From there, she became an artist trainee at GMM Grammy in October 2012 before becoming a full artist under it.[2]
+
+In 2012, during her trainee period, she appeared in the music video of Getsunova's 'Klai Khae Nai Khue Klai' (ไกลแค่ไหนคือใกล้; 'How Much Further Is It Till I Could Be Near You?'), which brought her to fame.[2] In 2013, she started her YouTube channel where she publishes, amongst other things, her covers of popular songs. Many of the covers went viral and gained many million views.[1]
+
+In 2015, Weigel released her first single, 'Chak Din Chak Ngo', followed by a number of OST songs.[2] In the same year, she was given the main roles in the television series Banlang Mek and the film Senior.[2][5] In 2016, she issued her second single, 'Away'.[6]"
+						</Label.Text>
+					</Label>
+				</StackLayout>
+				<StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="10">
+					<Image WidthRequest="15" HeightRequest="15" x:Name="Twitter" Source="twitter.png" />
+					<Image WidthRequest="15" HeightRequest="15" x:Name="Facebook" Source="facebook.png" />
+					<Image WidthRequest="15" HeightRequest="15" x:Name="Instagram" Source="instagram.png" />
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
