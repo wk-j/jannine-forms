@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
-using Jannine.Forms.ViewModel;
+using Jannine.Forms.ViewModels;
 using Jannine.Forms.Models;
 
 namespace Jannine.Forms
@@ -25,6 +25,7 @@ namespace Jannine.Forms
 			ListViewMenu.ItemsSource = _menuItems = new List<HomeMenuItem> () { 
 				new HomeMenuItem { Title = "About",MenuType = MenuType.About, Icon = "about.png" },
 				new HomeMenuItem { Title = "Twitter", MenuType = MenuType.Twitter, Icon = "twitter.png" },
+				new HomeMenuItem { Title = "Instagram", MenuType = MenuType.Instagram, Icon = "instagram.png" },
 				new HomeMenuItem { Title = "Soundcloud", MenuType = MenuType.Soundcloud, Icon = "soundcloud.png" },
 			};
 

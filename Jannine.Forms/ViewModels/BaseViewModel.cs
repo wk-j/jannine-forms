@@ -4,13 +4,14 @@ using System.ComponentModel;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace Jannine.Forms.ViewModel
+namespace Jannine.Forms.ViewModels
 {
 	public class BaseViewModel: INotifyPropertyChanged
 	{
 		private string _title = String.Empty;
 		private string _icon = null;
-		public const string TitlePropertyName = "Title";
+		private bool _isBusy = false;
+		private bool _canLoadMore = true;
 
 		public string Title {
 			get { return _title; }
@@ -20,6 +21,16 @@ namespace Jannine.Forms.ViewModel
 		public string Icon {
 			get { return _icon; }
 			set { SetProperty (ref _icon, value); }
+		}
+
+		public bool IsBusy {
+			get { return _isBusy; }
+			set { SetProperty (ref _isBusy, value); }
+		}
+
+		public bool CanLoadMore {
+			get { return _canLoadMore; }
+			set { SetProperty (ref _canLoadMore, value); }
 		}
 
 		protected bool SetProperty<T> ( ref T backingStore,

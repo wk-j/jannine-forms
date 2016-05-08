@@ -3,12 +3,13 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using System.Collections.Generic;
 using Jannine.Forms.Models;
-using Jannine.Forms.ViewModel;
+using Jannine.Forms.ViewModels;
 using Jannine.Forms.Controls;
 
 namespace Jannine.Forms
 {
-	public class RootPage :  MasterDetailPage {
+	public class RootPage : MasterDetailPage
+	{
 
 		private Dictionary<MenuType, NavigationPage> _pages { set; get; }
 
@@ -39,12 +40,18 @@ namespace Jannine.Forms
 				case MenuType.Soundcloud:
 					_pages.Add (id, new JannineNavigationPage (new SoundcloudPage ()));
 					break;
+				case MenuType.Instagram:
+					_pages.Add (id, new JannineNavigationPage (new InstagramPage ()));
+					break;
 				}
+			}
 
-				newPage = _pages [id];
-				if (newPage == null) return;
+			newPage = _pages [id];
+			if (newPage == null) return;
 
-				Detail = newPage;
+			Detail = newPage;
+			if (Device.Idiom != TargetIdiom.Tablet) {
+				IsPresented = false;
 			}
 		}
 	}

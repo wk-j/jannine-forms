@@ -13,6 +13,14 @@ namespace Jannine.Forms.iOS
 	{
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
+			UINavigationBar.Appearance.BarTintColor = UIColor.FromRGB (43, 132, 211);
+			UINavigationBar.Appearance.TintColor = UIColor.White;
+			UINavigationBar.Appearance.SetTitleTextAttributes (new UITextAttributes { 
+				Font = UIFont.FromName("HelveticaNeue-Light", (nfloat) 20f),
+				TextColor = UIColor.White
+			});
+
+
 			global::Xamarin.Forms.Forms.Init ();
 
 			ImageCircleRenderer.Init ();

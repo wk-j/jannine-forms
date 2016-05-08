@@ -5,6 +5,7 @@ namespace Jannine.Forms.Models
 	{
 		About,
 		Twitter,
+		Instagram,
 		Soundcloud
 	}
 

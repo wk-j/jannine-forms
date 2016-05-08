@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jannine.Forms", "Jannine.Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jannine.Forms.iOS", "iOS\Jannine.Forms.iOS.csproj", "{654099BF-725F-4A49-A229-4E0EBF22DB73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jannine.Forms.Tests", "Jannine.Forms.Tests\Jannine.Forms.Tests.csproj", "{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,5 +41,17 @@ Global
 		{654099BF-725F-4A49-A229-4E0EBF22DB73}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{654099BF-725F-4A49-A229-4E0EBF22DB73}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{654099BF-725F-4A49-A229-4E0EBF22DB73}.Debug|iPhone.Build.0 = Debug|iPhone
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Release|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Release|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Release|iPhone.ActiveCfg = Release|iPhone
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Release|iPhone.Build.0 = Release|iPhone
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{5B02CE10-ECDD-4936-89FA-E5FB35B9BFA2}.Debug|iPhone.Build.0 = Debug|iPhone
 	EndGlobalSection
 EndGlobal
