@@ -11,7 +11,7 @@
 
 - Error ตอนเรียกฟังก์ชัน `ExecuteLoadTweetsCommand()`
 
->> ex	{System.Net.WebException: Error: SecureChannelFailure (The authentication or decryption has failed.) …}	System.Net.WebException
+> ex	{System.Net.WebException: Error: SecureChannelFailure (The authentication or decryption has failed.) …}	System.Net.WebException
 
-- แก้ไขโดย เมนู `Options > iOS Build > SSL/TLS Implementation`
+- แก้ไข คลิกขวาที่ชื่อโปรเจค `Options > iOS Build > SSL/TLS Implementation`
 - เลือก `Apple TLS` แทน `Mono (TLS 1.0) | Default`
