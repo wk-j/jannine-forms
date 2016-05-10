@@ -1,6 +1,7 @@
 ## Jannine Form
 
-![](Screen/about-jannine.png)
+![](Screen/root-page.png)
+![](Screen/about-page.png)
 
 ## สร้าง RootPage
 
